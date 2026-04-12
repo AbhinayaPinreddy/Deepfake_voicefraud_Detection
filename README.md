@@ -50,12 +50,14 @@ uvicorn app.api:app --reload
 
 Upload an audio file to /analyze-audio to get a prediction.
 
-## Data
+## Dataset
 
-The project uses the ASVspoof2019 dataset, specifically the Logical Access (LA) subset. The data includes:
+The project uses the ASVspoof2019 dataset, specifically the Logical Access (LA) subset. Since the data is large and not included in the repository (it's in .gitignore), you need to download it separately.
 
-- Training set: ASVspoof2019_LA_train
-- Development set: ASVspoof2019_LA_dev
+Download the dataset from [Kaggle](https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset).
+
+After downloading and extracting, place the contents in the `data/` directory to match the expected structure:
+
 - Evaluation set: ASVspoof2019_LA_eval
 
 ## Model
