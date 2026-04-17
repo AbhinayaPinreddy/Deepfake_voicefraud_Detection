@@ -65,3 +65,5 @@ After downloading and extracting, place the contents in the `data/` directory to
 The model is a CNN with convolutional layers, max pooling, and fully connected layers. It outputs a probability score for spoof detection.
 
 Trained model is saved as models/model.pth
+
+## In collaboration with superteams.ai
